@@ -7,11 +7,11 @@ window.onresize = function(event) {
 var href = window.location.href.split("/")
 var html_location = href[href.length-1]
 
-if (window.innerWidth > 1920 && html_location !== "Error/errorns.html") {
-    window.location = "Error/errorns.html";
+if (window.innerWidth > 1920 && html_location !== "errorns.html") {
+    window.location = "errorns.html";
 }
-if (window.innerWidth < 1920 && html_location !== "Error/errorns.html") {
-    window.location = "Error/errorns.html";
+if (window.innerWidth < 1920 && html_location !== "errorns.html") {
+    window.location = "errorns.html";
 }
 
 
